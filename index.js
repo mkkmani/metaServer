@@ -5,7 +5,7 @@ const cors = require('cors')
 const app = express();
 app.use(express.json())
 app.use(cors())
-const PORT =  3000;
+const PORT =  3005;
 
 app.post('/proxy', async (req, res) => {
   const { url } = req.body;
