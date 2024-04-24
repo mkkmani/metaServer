@@ -7,7 +7,6 @@ app.use(express.json())
 app.use(cors())
 const PORT =  3000;
 
-// Proxy endpoint
 app.post('/proxy', async (req, res) => {
   const { url } = req.body;
 
